@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sucharitha Gangapuram — Full Stack Developer</title>
+  <meta name="description" content="Full Stack Developer — React.js & Spring Boot. B.Tech Data Science grad from Hyderabad building clean, scalable web applications."/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav id="nav">
+    <div class="nav-inner">
+      <a href="#" class="nav-logo">SG<span class="dot">.</span></a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="nav-actions">
+        <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">
+          <i class="fa-solid fa-moon" id="theme-icon"></i>
+        </button>
+        <a href="Sucharitha_Gangapuram_Resume.pdf" download class="nav-resume">
+          <i class="fa-solid fa-download"></i> Resume
+        </a>
+        <a href="mailto:sucharithaaa4@gmail.com" class="nav-hire">Hire me ↗</a>
+      </div>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- MOBILE MENU -->
+  <div class="mobile-menu" id="mobile-menu">
+    <ul>
+      <li><a href="#about"      class="ml">About</a></li>
+      <li><a href="#experience" class="ml">Experience</a></li>
+      <li><a href="#projects"   class="ml">Projects</a></li>
+      <li><a href="#skills"     class="ml">Skills</a></li>
+      <li><a href="#contact"    class="ml">Contact</a></li>
+      <li><a href="Sucharitha_Gangapuram_Resume.pdf" download class="ml resume-ml">⬇ Download Resume</a></li>
+      <li><a href="mailto:sucharithaaa4@gmail.com" class="ml hire-ml">Hire me ↗</a></li>
+    </ul>
+  </div>
+
+  <!-- HERO -->
+  <section class="hero" id="about">
+    <div class="hero-grid-bg" aria-hidden="true"></div>
+    <div class="hero-orb hero-orb-1" aria-hidden="true"></div>
+    <div class="hero-orb hero-orb-2" aria-hidden="true"></div>
+
+    <div class="hero-left">
+      <div class="avail-badge reveal">
+        <span class="pulse-dot"></span> Available for opportunities
+      </div>
+
+      <h1 class="hero-name reveal">
+        Sucharitha<br>
+        <em>Gangapuram</em>
+      </h1>
+
+      <p class="hero-role reveal" id="typed-role">Full Stack Developer</p>
+
+      <p class="hero-bio reveal">
+        B.Tech Data Science grad from Hyderabad. I build clean, scalable web applications — React on the front, Spring Boot on the back, MySQL underneath. Focused on security, performance, and interfaces people enjoy using.
+      </p>
+
+      <div class="hero-ctas reveal">
+        <a href="#projects" class="btn-fill">View my work</a>
+        <a href="Sucharitha_Gangapuram_Resume.pdf" download class="btn-outline">
+          <i class="fa-solid fa-download"></i> Download Resume
+        </a>
+      </div>
+
+      <div class="hero-socials reveal">
+        <a href="https://github.com/Sucharithaa14" target="_blank" class="soc" aria-label="GitHub"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/sucharithagangapuram" target="_blank" class="soc" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        <a href="mailto:sucharithaaa4@gmail.com" class="soc" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+      </div>
+    </div>
+
+    <div class="hero-right reveal">
+      <div class="profile-card">
+        <div class="pc-top">
+          <div class="pc-avatar">SG</div>
+          <div>
+            <div class="pc-name">Sucharitha Gangapuram</div>
+            <div class="pc-loc"><i class="fa-solid fa-location-dot"></i> Hyderabad, India</div>
+          </div>
+        </div>
+
+        <div class="pc-divider"></div>
+
+        <div class="pc-stats">
+          <div class="pc-stat"><div class="psn">6+</div><div class="psl">Projects</div></div>
+          <div class="pc-stat"><div class="psn">6mo</div><div class="psl">Experience</div></div>
+          <div class="pc-stat"><div class="psn">7.85</div><div class="psl">CGPA</div></div>
+        </div>
+
+        <div class="pc-divider"></div>
+
+        <div class="pc-edu">
+          <i class="fa-solid fa-graduation-cap edu-ico"></i>
+          <div>
+            <div class="edu-deg">B.Tech (CSE) · Data Science</div>
+            <div class="edu-col">Sri Indu College · 2021–2025</div>
+          </div>
+        </div>
+
+        <div class="pc-stack">
+          <span>React.js</span>
+          <span>Spring Boot</span>
+          <span>MySQL</span>
+          <span>Java</span>
+        </div>
+
+        <div class="pc-divider"></div>
+
+        <a href="Sucharitha_Gangapuram_Resume.pdf" download class="pc-resume-btn">
+          <i class="fa-solid fa-file-arrow-down"></i> Download Resume
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section class="section" id="experience">
+    <div class="container">
+      <div class="sec-head reveal">
+        <div class="sec-label">Experience</div>
+        <h2 class="sec-title">Where I've <em>worked</em></h2>
+      </div>
+
+      <div class="exp-wrap reveal">
+        <div class="exp-icon-col">
+          <div class="exp-ico">H</div>
+          <div class="exp-vline"></div>
+        </div>
+        <div class="exp-body">
+          <div class="exp-top">
+            <div>
+              <h3 class="exp-role">Software Development Intern</h3>
+              <p class="exp-co">HealthcareNow Pvt Ltd — Hyderabad</p>
+            </div>
+            <span class="exp-badge">Aug 2025 – Jan 2026</span>
+          </div>
+          <div class="exp-highlight">
+            Worked on <strong>Pulse</strong> — a live Hospital Management SaaS used by 100+ healthcare providers across India, covering patient management, billing, analytics, and multi-device access.
+          </div>
+          <ul class="exp-list">
+            <li>Delivered 4 production-ready responsive web modules (Teams, Blog, About, Contact) using HTML5, CSS3 and Bootstrap ensuring consistent UI across all screen sizes</li>
+            <li>Built a reusable dynamic dropdown component with real-time search and keyboard navigation, deployed across multiple pages</li>
+            <li>Optimised MySQL queries for Cost Center reporting by restructuring joins and adding indexes — significantly reducing report load times</li>
+            <li>Resolved cross-browser layout issues across Chrome, Firefox, Safari and Edge; validated REST API responses end-to-end using Postman</li>
+          </ul>
+          <div class="exp-chips">
+            <span>HTML5</span><span>CSS3</span><span>Bootstrap</span><span>MySQL</span><span>REST APIs</span><span>Postman</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="section skills-bg" id="projects">
+    <div class="container">
+      <div class="sec-head reveal">
+        <div class="sec-label">Projects</div>
+        <h2 class="sec-title">Things I've <em>built</em></h2>
+      </div>
+      <div class="proj-grid">
+
+        <!-- Employee Portal — Featured -->
+        <div class="proj-card featured reveal">
+          <div class="proj-type fs">
+            <i class="fa-solid fa-users-gear"></i> Full Stack · Featured
+          </div>
+          <h3>Employee Portal</h3>
+          <p>Full-stack enterprise HRMS with secure JWT authentication, role-based access control, department management, leave tracking, and performance reporting. Built with React.js frontend and Spring Boot REST API backend, MySQL database.</p>
+          <div class="proj-chips">
+            <span>React.js</span><span>Spring Boot</span><span>MySQL</span><span>JWT</span><span>REST API</span>
+          </div>
+          <div class="proj-links">
+            <a href="https://github.com/Sucharithaa14" target="_blank" class="pl-btn"><i class="fab fa-github"></i> Code</a>
+            <a href="https://demo-employee-app.netlify.app" target="_blank" class="pl-btn accent"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo</a>
+          </div>
+        </div>
+
+        <!-- Bee Pure OrganiQs -->
+        <div class="proj-card reveal">
+          <div class="proj-type honey">
+            <i class="fa-solid fa-store"></i> Web · UI/UX
+          </div>
+          <h3>Bee Pure OrganiQs</h3>
+          <p>Concept e-commerce website for an organic honey brand. Built with React.js — responsive product showcase, smooth navigation, cart, and clean UI. Deployed on Vercel.</p>
+          <div class="proj-chips">
+            <span>React.js</span><span>CSS3</span><span>Vercel</span>
+          </div>
+          <div class="proj-links">
+            <a href="https://bee-pure-organiqs.vercel.app/" target="_blank" class="pl-btn honey-btn"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live Site</a>
+          </div>
+        </div>
+
+        <!-- Sridha Label -->
+        <div class="proj-card reveal">
+          <div class="proj-type boutique">
+            <i class="fa-solid fa-shirt"></i> Boutique Website
+          </div>
+          <h3>Sridha Label</h3>
+          <p>Elegant landing page for a Hyderabad-based designer boutique — bridal lehengas and custom occasion wear. Smooth scroll, gallery, WhatsApp ordering, and fully responsive layout.</p>
+          <div class="proj-chips">
+            <span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>Netlify</span>
+          </div>
+          <div class="proj-links">
+            <a href="https://sridhalabel.netlify.app/" target="_blank" class="pl-btn boutique-btn"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live Site</a>
+          </div>
+        </div>
+
+        <!-- Phishing Detection -->
+        <div class="proj-card reveal">
+          <div class="proj-type ml-type">
+            <i class="fa-solid fa-shield-halved"></i> Machine Learning
+          </div>
+          <h3>Phishing Website Detection</h3>
+          <p>ML pipeline using LightGBM and SVM with feature engineering, cross-validation, and AUC/precision reporting. Built end-to-end under a 24-hour hackathon constraint.</p>
+          <div class="proj-chips">
+            <span>Python</span><span>LightGBM</span><span>SVM</span><span>scikit-learn</span>
+          </div>
+          <div class="proj-links">
+            <a href="https://github.com/Sucharithaa14/Phishing-Website-Detection-using-LightGBM-and-SVM-algorithms" target="_blank" class="pl-btn"><i class="fab fa-github"></i> Code</a>
+          </div>
+        </div>
+
+        <!-- Nutrition -->
+        <div class="proj-card reveal">
+          <div class="proj-type web">
+            <i class="fa-solid fa-leaf"></i> Web App
+          </div>
+          <h3>Nutrition Components Estimator</h3>
+          <p>Django web app estimating calories, protein, and fats using a relational database and dynamic templates. Fully responsive UI with clean, intuitive user flows.</p>
+          <div class="proj-chips">
+            <span>Django</span><span>Python</span><span>MySQL</span><span>HTML/CSS</span>
+          </div>
+          <div class="proj-links">
+            <a href="https://github.com/Sucharithaa14/Estimation_of-Nutrition-Components" target="_blank" class="pl-btn"><i class="fab fa-github"></i> Code</a>
+          </div>
+        </div>
+
+        <!-- Banking -->
+        <div class="proj-card reveal">
+          <div class="proj-type java">
+            <i class="fa-solid fa-building-columns"></i> Core Java
+          </div>
+          <h3>Banking System</h3>
+          <p>Console banking app with account creation, deposits, withdrawals, fund transfers, and transaction history. HashMap O(1) lookups, UUID account IDs, and custom exception handling.</p>
+          <div class="proj-chips">
+            <span>Core Java</span><span>OOP</span><span>Collections</span><span>Exception Handling</span>
+          </div>
+          <div class="proj-links">
+            <a href="https://github.com/Sucharithaa14" target="_blank" class="pl-btn"><i class="fab fa-github"></i> Code</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="section" id="skills">
+    <div class="container">
+      <div class="sec-head reveal">
+        <div class="sec-label">Skills</div>
+        <h2 class="sec-title">My <em>tech stack</em></h2>
+      </div>
+      <div class="skills-grid">
+        <div class="skill-block reveal">
+          <div class="sb-label"><i class="fa-solid fa-code"></i> Languages</div>
+          <div class="sb-items">
+            <div class="sb-item">Java</div>
+            <div class="sb-item">JavaScript</div>
+            <div class="sb-item">Python</div>
+            <div class="sb-item">SQL</div>
+            <div class="sb-item">HTML5</div>
+            <div class="sb-item">CSS3</div>
+          </div>
+        </div>
+        <div class="skill-block reveal">
+          <div class="sb-label"><i class="fa-solid fa-layer-group"></i> Frameworks</div>
+          <div class="sb-items">
+            <div class="sb-item">React.js</div>
+            <div class="sb-item">Spring Boot</div>
+            <div class="sb-item">Django</div>
+            <div class="sb-item">Bootstrap</div>
+            <div class="sb-item">JPA / Hibernate</div>
+          </div>
+        </div>
+        <div class="skill-block reveal">
+          <div class="sb-label"><i class="fa-solid fa-server"></i> Backend & DB</div>
+          <div class="sb-items">
+            <div class="sb-item">Spring Security</div>
+            <div class="sb-item">JWT Auth</div>
+            <div class="sb-item">REST APIs</div>
+            <div class="sb-item">MySQL</div>
+            <div class="sb-item">MongoDB</div>
+          </div>
+        </div>
+        <div class="skill-block reveal">
+          <div class="sb-label"><i class="fa-solid fa-wrench"></i> Tools</div>
+          <div class="sb-items">
+            <div class="sb-item">Git & GitHub</div>
+            <div class="sb-item">Postman</div>
+            <div class="sb-item">VS Code</div>
+            <div class="sb-item">IntelliJ IDEA</div>
+            <div class="sb-item">Vercel / Netlify</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ACHIEVEMENTS -->
+  <section class="section skills-bg" id="achievements">
+    <div class="container">
+      <div class="sec-head reveal">
+        <div class="sec-label">Recognition</div>
+        <h2 class="sec-title">Achievements &amp; <em>certifications</em></h2>
+      </div>
+      <div class="ach-grid">
+        <div class="ach-card reveal">
+          <div class="ach-em">📊</div>
+          <div>
+            <h4>Data Analytics — Simplilearn</h4>
+            <p>Statistical analysis, data wrangling, and visualization fundamentals.</p>
+          </div>
+        </div>
+        <div class="ach-card reveal">
+          <div class="ach-em">🤖</div>
+          <div>
+            <h4>AI/ML Hackathon</h4>
+            <p>Built and presented a working ML classifier to judges under a 24-hour constraint.</p>
+          </div>
+        </div>
+        <div class="ach-card reveal">
+          <div class="ach-em">🏆</div>
+          <div>
+            <h4>Coding Fest Coordinator — SANKALP</h4>
+            <p>Organised an institution-wide coding contest: problem-setting, logistics, and coordination.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section" id="contact">
+    <div class="container">
+      <div class="sec-head reveal">
+        <div class="sec-label">Contact</div>
+        <h2 class="sec-title">Let's <em>work together</em></h2>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-left reveal">
+          <p class="contact-intro">Open to full-time roles, freelance projects, or just a good conversation. I typically reply within 24 hours.</p>
+          <div class="contact-items">
+            <a href="mailto:sucharithaaa4@gmail.com" class="ci">
+              <div class="ci-ico"><i class="fa-solid fa-envelope"></i></div>
+              <div class="ci-text"><span class="ci-lbl">Email</span><span class="ci-val">sucharithaaa4@gmail.com</span></div>
+              <i class="fa-solid fa-arrow-up-right-from-square ci-arrow"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/sucharithagangapuram" target="_blank" class="ci">
+              <div class="ci-ico"><i class="fab fa-linkedin-in"></i></div>
+              <div class="ci-text"><span class="ci-lbl">LinkedIn</span><span class="ci-val">sucharithagangapuram</span></div>
+              <i class="fa-solid fa-arrow-up-right-from-square ci-arrow"></i>
+            </a>
+            <a href="https://github.com/Sucharithaa14" target="_blank" class="ci">
+              <div class="ci-ico"><i class="fab fa-github"></i></div>
+              <div class="ci-text"><span class="ci-lbl">GitHub</span><span class="ci-val">Sucharithaa14</span></div>
+              <i class="fa-solid fa-arrow-up-right-from-square ci-arrow"></i>
+            </a>
+            <a href="Sucharitha_Gangapuram_Resume.pdf" download class="ci">
+              <div class="ci-ico"><i class="fa-solid fa-file-pdf"></i></div>
+              <div class="ci-text"><span class="ci-lbl">Resume</span><span class="ci-val">Download PDF</span></div>
+              <i class="fa-solid fa-download ci-arrow"></i>
+            </a>
+          </div>
+        </div>
+        <div class="contact-form reveal">
+          <div class="fg">
+            <label>Your name</label>
+            <input type="text" id="fn" placeholder="Jane Smith"/>
+          </div>
+          <div class="fg">
+            <label>Your email</label>
+            <input type="email" id="fe" placeholder="jane@company.com"/>
+          </div>
+          <div class="fg">
+            <label>Message</label>
+            <textarea id="fm" rows="4" placeholder="Tell me about your project or role..."></textarea>
+          </div>
+          <button class="btn-fill send-btn" id="send-btn">
+            Send Message <i class="fa-solid fa-paper-plane"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-inner">
+      <span class="footer-logo">SG<span class="dot">.</span></span>
+      <span class="footer-copy">© 2026 Sucharitha Gangapuram · Hyderabad, India</span>
+      <div class="footer-soc">
+        <a href="https://github.com/Sucharithaa14" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/sucharithagangapuram" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+        <a href="mailto:sucharithaaa4@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
